@@ -1,0 +1,33 @@
+.placeholder {
+  flex-grow: 1;
+  width: 100%;
+  padding-block: 84.5px var(--space-6);
+  padding-inline: var(--space-6);
+  text-align: center;
+
+  @media (width >= 1600px) {
+    padding-top: 118.5px;
+  }
+
+  @media (width >= 1920px) {
+    padding-top: 208.5px;
+  }
+}
+
+.image {
+  display: block;
+  width: 463px;
+  height: 319px;
+  margin-inline: auto;
+  margin-top: 40px;
+}
+
+.text {
+  margin-top: var(--space-4);
+  font-size: var(--fs-lg);
+  line-height: var(--lh-lg);
+}
+
+.noTopPadding {
+  padding-top: 0;
+}

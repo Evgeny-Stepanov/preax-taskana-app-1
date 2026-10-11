@@ -1,0 +1,19 @@
+.navBar {
+  width: 204px;
+  padding-block: var(--space-6);
+  padding-inline: var(--space-4);
+  background-color: var(--color-neutral-100);
+  border-right: var(--border-1) solid var(--color-neutral-300);
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.link {
+  padding-inline: var(--space-2);
+  background-color: var(--color-neutral-800);
+  text-decoration: none;
+}

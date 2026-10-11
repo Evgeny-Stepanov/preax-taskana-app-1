@@ -1,0 +1,8 @@
+.sideBar {
+  display: flex;
+  width: 400px;
+  padding: var(--space-6);
+  background-color: var(--color-neutral-100);
+  border-left: var(--border-1) solid var(--color-neutral-300);
+  overflow-y: auto;
+}

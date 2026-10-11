@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 300px;
+  padding-block: var(--space-3);
+  padding-inline: var(--space-4) var(--space-6);
+  background-color: var(--color-base-black);
+}
+
+.button {
+  padding-inline: var(--space-3) var(--space-4);
+  background-color: var(--color-primary-400);
+}

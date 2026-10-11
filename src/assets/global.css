@@ -1,0 +1,43 @@
+@import "normalize.css";
+@import "variables.css";
+@import "utils.css";
+
+@font-face {
+  font-family: "Source Sans 3";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/source-sans-3-regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Sans 3";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./fonts/source-sans-3-semibold.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Sans 3";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/source-sans-3-bold.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  min-width: 1280px;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: var(--fs-md);
+  line-height: var(--lh-md);
+  font-weight: 400;
+  color: var(--color-neutral-800);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+  overflow-y: hidden;
+}

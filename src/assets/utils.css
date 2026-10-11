@@ -1,0 +1,30 @@
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: -1px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  white-space: nowrap !important;
+  clip-path: inset(100%) !important;
+  clip: rect(0 0 0 0) !important;
+  overflow: hidden !important;
+}
+
+.h1 {
+  font-size: 32px;
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+.h2 {
+  font-size: 24px;
+  line-height: var(--lh-lg);
+  font-weight: 700;
+}
+
+.h3 {
+  font-size: var(--fs-lg);
+  line-height: var(--lh-lg);
+  font-weight: 700;
+}

@@ -1,0 +1,14 @@
+.footer {
+  position: sticky;
+  inset: auto auto 0 0;
+  width: 100%;
+  margin-top: auto;
+  padding-block: var(--space-4);
+  text-align: center;
+  color: var(--color-neutral-600);
+  background-color: var(--color-neutral-0);
+
+  span {
+    text-decoration: underline;
+  }
+}
