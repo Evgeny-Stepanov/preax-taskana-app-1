@@ -1,5 +1,6 @@
 .layout {
   display: flex;
-  flex-grow: 1;
-  overflow-y: auto;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
 }

@@ -4,8 +4,8 @@ import styles from "./sideBar.module.css";
 
 export const SideBar = () => {
   return (
-    <div className={styles.sideBar}>
+    <aside className={styles.sideBar}>
       <Statistic />
-    </div>
+    </aside>
   );
 };

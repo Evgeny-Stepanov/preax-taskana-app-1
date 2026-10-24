@@ -16,7 +16,7 @@ export const NavBar = () => {
             href={`${BASE_URL}index.html`}
           >
             <Icon iconSpriteId="inbox" />
-            Входящие
+            <span>Входящие</span>
           </Button>
         </li>
       </ul>

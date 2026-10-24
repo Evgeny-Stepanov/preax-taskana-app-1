@@ -2,7 +2,8 @@
   --gradient-from: var(--color-primary-400);
   --gradient-to: var(--color-primary-500);
 
-  width: 124px;
+  display: block;
+  width: 126px;
   height: 40px;
-  color: var(--color-neutral-0);
+  color: var(--color-neutral-light-0);
 }

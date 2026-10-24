@@ -1,0 +1,6 @@
+.title {
+  position: sticky;
+  inset: 0 auto auto 0;
+  padding: var(--space-6);
+  background-color: var(--color-neutral-light-0);
+}

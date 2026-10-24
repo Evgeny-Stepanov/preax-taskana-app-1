@@ -7,13 +7,19 @@ import styles from "./header.module.css";
 export const Header = () => {
   return (
     <header className={styles.header}>
-      <Logo />
+      <a
+        href="#"
+        aria-label="Заглушка"
+      >
+        <Logo />
+      </a>
+
       <Button
         className={styles.button}
         ariaLabel="Создать задачу"
       >
         <Icon iconSpriteId="plus" />
-        Создать
+        <span>Создать</span>
       </Button>
     </header>
   );

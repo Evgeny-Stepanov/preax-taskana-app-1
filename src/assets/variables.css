@@ -1,14 +1,14 @@
 :root {
-  --color-neutral-0: #ffffff;
-  --color-neutral-100: #fbfbfb;
-  --color-neutral-200: #f3f3f3;
-  --color-neutral-300: #ececec;
-  --color-neutral-400: #bfbfbf;
-  --color-neutral-500: #8c8c8c;
-  --color-neutral-600: #6c6c6c;
-  --color-neutral-700: #393939;
-  --color-neutral-800: #1c1c1c;
-  --color-neutral-900: #141414;
+  --color-neutral-light-0: #ffffff;
+  --color-neutral-light-100: #fbfbfb;
+  --color-neutral-light-200: #f3f3f3;
+  --color-neutral-light-300: #ececec;
+  --color-neutral-light-400: #bfbfbf;
+  --color-neutral-light-500: #8c8c8c;
+  --color-neutral-light-600: #6c6c6c;
+  --color-neutral-light-700: #393939;
+  --color-neutral-light-800: #1c1c1c;
+  --color-neutral-light-900: #141414;
 
   --color-primary-0: #fff4f4;
   --color-primary-100: #ffcece;
@@ -17,6 +17,12 @@
   --color-primary-400: #d51010;
   --color-primary-500: #a60c0c;
   --color-primary-600: #760909;
+
+  --color-primary-400-500: linear-gradient(
+    180deg,
+    var(--color-primary-400) 0%,
+    var(--color-primary-500) 100%
+  );
 
   --color-base-black: #000000;
 
@@ -44,15 +50,4 @@
   --border-1: 1px;
 
   --radius-md: 8px;
-
-  /*
-  
-
-  --radius-sm: 4px;
-  
-  --radius-lg: 12px;
-
-  
-  --border-2: 2px;
-  */
 }

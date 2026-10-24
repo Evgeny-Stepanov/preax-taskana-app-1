@@ -1,8 +1,5 @@
 .icon {
-  display: inline-flex;
   flex-shrink: 0;
-  justify-content: center;
-  align-items: center;
   width: var(--icon-wrapper-size);
   height: var(--icon-wrapper-size);
   padding: 3px;

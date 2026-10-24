@@ -1,12 +1,12 @@
 .placeholder {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   margin: auto;
 }
 
 .image {
+  display: block;
   width: 233px;
   height: 168px;
 }

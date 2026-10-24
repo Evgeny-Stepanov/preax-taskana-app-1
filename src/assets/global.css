@@ -28,16 +28,19 @@
 
 body {
   min-width: 1280px;
+  height: 100%;
   font-family: "Source Sans 3", sans-serif;
   font-size: var(--fs-md);
   line-height: var(--lh-md);
   font-weight: 400;
-  color: var(--color-neutral-800);
+  color: var(--color-neutral-light-800);
 }
 
 #root {
-  display: flex;
-  flex-direction: column;
-  height: 100dvh;
+  height: 100%;
+}
+
+html {
+  overflow-x: auto;
   overflow-y: hidden;
 }

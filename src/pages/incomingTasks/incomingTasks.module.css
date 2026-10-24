@@ -1,29 +1,20 @@
 .main {
   display: flex;
+  flex: 1;
   flex-direction: column;
-  flex-grow: 1;
-  justify-content: space-between;
-  align-items: center;
-  overflow-y: auto;
+  /* align-items: center; */
+  min-width: 0;
+  min-height: 0;
+  overflow: auto;
 }
 
-.mainContainer {
+.container {
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
-  align-items: center;
+  flex-shrink: 0;
   width: 100%;
+  max-width: 996px;
+  min-height: 100%;
 
-  @media (width >= 1920px) {
-    width: 996px;
-  }
-}
-
-.title {
-  position: sticky;
-  inset: 0 auto auto 0;
-  align-self: flex-start;
-  width: 100%;
-  padding: var(--space-6);
-  background-color: var(--color-neutral-0);
+  margin-inline: auto;
 }
